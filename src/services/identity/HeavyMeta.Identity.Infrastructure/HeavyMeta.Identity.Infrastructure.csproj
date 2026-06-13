@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\HeavyMeta.Identity.Core\HeavyMeta.Identity.Core.csproj" />
+    <ProjectReference Include="..\..\..\shared\HeavyMeta.Shared.Messaging\HeavyMeta.Shared.Messaging.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

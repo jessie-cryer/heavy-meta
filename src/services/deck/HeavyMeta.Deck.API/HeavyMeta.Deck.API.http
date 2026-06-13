@@ -1,0 +1,6 @@
+@HeavyMeta.Deck.API_HostAddress = http://localhost:5137
+
+GET {{HeavyMeta.Deck.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

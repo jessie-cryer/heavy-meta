@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-HeavyMeta.Sync.Worker-d38cd170-3ea7-464e-8302-009f0076e267</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HeavyMeta.Sync.Core\HeavyMeta.Sync.Core.csproj" />
+    <ProjectReference Include="..\HeavyMeta.Sync.Infrastructure\HeavyMeta.Sync.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
